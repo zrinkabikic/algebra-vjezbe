@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obrasci</title>
+</head>
+<body>
+    <form>
+        <p>
+            <label for="name">Ime i prezime: *</label><br>
+            <input type="text" name="name" id="name" required placeholder="Vaše ime i prezime">
+        </p>
+
+        <p>
+            <label for="email">E-mail adresa: *</label><br>
+            <input type="text" name="email" id="email" required placeholder="Upišite valjanu e-mail adresu">
+        </p>
+
+        <p>
+            <label for="datum-rodenja">Datum rođenja:</label><br>
+            <input type="date" id="datum-rodenja" name="dateofbirth">
+        </p>
+
+        <p>
+            <label for="jezici">Koje jezike govorite?</label><br>
+            <input type="checkbox" id="jezici" name="jezici" value="engleski">
+            <label for="jezici">Engleski</label>
+            <input type="checkbox" id="jezici" name="jezici" value="talijanski">
+            <label for="jezici">Talijanski</label>
+            <input type="checkbox" id="jezici" name="jezici" value="njemacki">
+            <label for="jezici">Njemački</label>
+            <input type="checkbox" id="jezici" name="jezici" value="francuski">
+            <label for="jezici">Francuski</label>
+            <input type="checkbox" id="jezici" name="jezici" value="spanjolski">
+            <label for="jezici">Španjolski</label>
+
+        </p>
+
+        <p>
+                Jeste li do sada koristili usluge naše tvrtke?<br>
+                <input type="radio" id="da" name="koristenje">
+                <label for="da">Da</label> 
+    
+                <input type="radio" id="ne" name="koristenje">
+                <label for="ne">Ne</label>
+
+        </p>
+
+        <p>
+            Priložite životopis <br>
+            <label for="file">Choose file:</label>
+            <input type="file" id="file" name="file">
+        </p>
+
+        <p>
+            <input type="reset" value="Poništi">
+            <input type="submit" value="Prijavi se"> 
+
+        </p>
+
+        </form>
+    </body>
+</html>

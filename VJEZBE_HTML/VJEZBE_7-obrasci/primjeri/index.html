@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obrasci</title>
+</head>
+<body>
+    <form action="">
+        <div>
+            <label for="name">Ime:</label>
+            <input type="text" name="" id="name">
+        </div>
+        <div>
+            <label for="surname">Prezime:</label>
+            <input type="text" name="" id="surname"> 
+        </div>  
+        <div>
+            <label for="e-mail">E-mail:</label>
+            <input type="email" name="" id="e-mail"> 
+        </div>  
+        <div>
+            <label for="password">Lozinka:</label>
+            <input type="password" name="" id="password"> 
+        </div>  
+        <div>
+            <input type="reset" value="Poništi"> <!--'reset' je naredba za poništavanje inputa u okvirima za traženje-->
+            <input type="submit" value="Potvrdi"> 
+        </div>  
+
+        <div>
+            Ocjenite uslugu naše tvrtke:
+            <input type="radio" id="o1" name="ocjena"><!-- ako dodamo naredbu 'placeholder' ubacujemo tekst u input field koji se briše klikom na input field, moze se koristiti kao opis polja -->
+            <!-- ako se doda naredba 'required' u 'input' onda se izbacuje upozorenje ako input field ostane prazan -->
+            <label for="o1">1</label> 
+
+            <input type="radio" id="o2" name="ocjena">
+            <label for="o2">2</label>
+
+            <input type="radio" id="o3" name="ocjena">
+            <label for="o3">3</label>
+        </div>
+
+        <div>
+            <label for="obavijesti">Želim primati obavijesti</label>
+            <input type="checkbox" name="newsletter" for="obavijesti">
+
+        </div>
+
+        <div>
+            <label for="opis">Opiši svoje iskustvo:</label>
+            <textarea name="opis" cols="30" rows="5"></textarea>
+        </div>
+
+        <div>
+            <label for="seminar">Odaberite seminar</label>
+            <select name="grad" id="grad">
+                <option value="london">London</option>
+                <option value="pariz">Pariz</option>
+                <option value="rim">Rim</option>
+        </div>
+
+        <div>
+            <label for="omiljeni">Upišite omiljeni predmet</label>
+            <input type="text" name="predmet" id="omiljeni" list="predmeti"> <!-- kada zelimo datalist moramo imati u inputu naredbu 'list' koji cemo prekopirati ispod u naredbu datalist ispod inputa -->
+            <datalist id="predmeti">
+                <option value="HTML"></option>
+                <option value="CSS"></option>
+                <option value="JAVASCRIPT"></option>
+<!-- razlika izmedu select i datalist je sto datalist zabranjuje upisivanje bilo cega sto nije navedeno pod naredbama option unutar datalist naredbe -->
+            </datalist>
+        </div>
+
+        <div>
+            <label for="tel">Telefon</label>
+            <input type="tel" name="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" placeholder="021-123-456">
+        
+           <!-- uvijek se treba unijeti 'pattern' gdje mozemo odrediti kakav to broj treba biti - to se upisuje kroz opis ispod input fielda ili dodavanjem naredbe placeholder --> 
+
+        </div>
+
+        <div>
+            <label for="boja">Boja</label>
+            <input id="boja" type="color">
+
+        </div>
+
+        <div>
+            <label for="CV">Unesite svoj CV</label>
+
+        </div>
+
+        <div>
+            <label for="god">Unesite svoje godine</label>
+            <input type="number" name="">
+
+        </div>
+    </form>
+</body>
+</html>

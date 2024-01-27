@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Hatemelo</title>
+</head>
+<body>
+<header>
+        <h1>Hotel "Hatemelo"</h1>
+            <nav>
+                <ul>
+                    <li><a href=#onama>O nama</a></li>
+                    <li><a href=#smjestaj>Smjestaj</a></li>
+                    <li><a href=#usluge>Usluge</a></li>
+                    <li><a href=#rezervacije>Rezervacije</a>
+                </ul>
+            </nav>
+</header>
+<hr>
+
+<main>
+<section>
+    <h2 id="onama">O nama</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam cum reiciendis dicta quas. Modi voluptate voluptatem ratione officiis quibusdam, expedita sit commodi atque aliquam, mollitia laudantium cum aperiam sunt est.</p>
+    <figure>
+        <img src="/dodaci/slike/slika1.webp" alt="hotel" width="500">
+    </figure>
+</section>
+<section>
+    <h2 id="smjestaj">Smjestaj</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam cum reiciendis dicta quas. Modi voluptate voluptatem ratione officiis quibusdam, expedita sit commodi atque aliquam, mollitia laudantium cum aperiam sunt est.</p>
+    <figure>
+    <img src="/dodaci/slike/slika2.jpeg" alt="smjestaj" width="500">
+    </figure>
+</section>
+
+<section>
+    <h2 id="usluge">Usluge</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam cum reiciendis dicta quas. Modi voluptate voluptatem ratione officiis quibusdam, expedita sit commodi atque aliquam, mollitia laudantium cum aperiam sunt est.</p>
+    <figure>
+    <img src="/dodaci/unutarnji_bazen.jpg" alt="unutarnji bazen" width="500">
+    </figure>
+</section>
+<section>
+
+    <h2 id="rezervacije">Rezervacije</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam cum reiciendis dicta quas. Modi voluptate voluptatem ratione officiis quibusdam, expedita sit commodi atque aliquam, mollitia laudantium cum aperiam sunt est.</p>
+    
+    <form autocomplete="on" method="post">         
+        <div>
+            <label for="name" >Ime i prezime:</label>
+            <input type="text" id="name" required autocomplete="name" >
+        </div><br>
+
+        <div>
+            <label for="mail" >E-mail:</label>
+            <input type="email" id="mail" required autocomplete="email" >
+        </div><br>
+    
+        <div>
+            <label for="people" >Broj osoba:</label>
+            <input type="number" id="people" required min="1">
+        </div><br>
+
+        <div>
+            <label for="pets">Ljubimci</label>
+            <input type="checkbox" name="pets" for="pets" required>
+        </div><br>
+
+        <div>
+            <label for="message">Poruka</label><br>
+            <textarea name="message" id="message" cols="30" rows="4"></textarea>
+        </div><br>
+        <input type="submit" value="Pošalji poruku">
+</form>
+</section>
+</main>
+
+<hr>
+
+<footer>
+<em>Hatemelo &copy; </em><span>2022</span> <br>
+<img src="/dodaci/logo/email.svg" height="20"></img>
+</footer>
+</body>
+</html>
