@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            color:#333;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 20px;
+        }
+
+        a{
+            color:#333;
+            text-decoration: no;
+        }
+
+        /*defaultna boja je plava pa zato nije naslijedio boju od body-ja. Naječešći slučaj korištenja text-decoration-a je none na linkovima */ 
+
+        a:visited{
+            color:#f93;
+        }
+
+        /*visited je pseudoklasa i odnosi se na to ako je stranica već posjećena da se oboji; umjesto elementa a moze biti bilo koja klasa ili id */ 
+
+        a:hover{
+            color:green;
+        }
+
+        /*hover je pseudoklasa i odnosi se na to kada se prijeđe mišem preko linka; umjesto a moze biti i klasa i id. Ne mora nužno biti promjena boje, može biti i neka druga vrijednost */ 
+
+        a:active{
+            color:active;
+        }
+
+        /*active je pseudoklasa i dok se drži miš na tom linku; umjesto a moze biti i klasa i id. */ 
+
+        a:focus{
+            color:blue;
+        }
+
+        /*focus je pseudoklasa i zadnji kliknuti ostane plavi (dok npr. čekamo da se učita druga stranica, se link oboji u plavo); umjesto a moze biti i klasa i id. */ 
+
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li><a href="#">Lorem Ipsum dolor</a></li>
+        <li><a href="#">Lorem Ipsum dolor</a></li>
+        <li><a href="#">Lorem Ipsum dolor</a></li>
+        <li><a href="#">Lorem Ipsum dolor</a></li>
+        <li><a href="#">Lorem Ipsum dolor</a></li>
+        <li><a href="#">Lorem Ipsum dolor</a></li>
+    </ul>
+</body>
+</html>
