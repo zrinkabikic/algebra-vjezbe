@@ -1,0 +1,30 @@
+body{
+    font-family: Tahoma, sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-color:#deddde;
+}
+
+h1{
+    background-color: #ffbec0;
+}
+
+header{
+    background-color: #326131;
+}
+
+p{
+    background-color:#deddde;
+}
+nav{
+    background-color:#ffffcf;
+}
+
+main{
+    background-color: #88ceee;
+}
+
+footer{
+    background-color: #9a3234;
+}
+
