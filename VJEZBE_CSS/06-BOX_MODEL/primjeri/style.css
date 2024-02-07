@@ -1,0 +1,104 @@
+body {
+    font-family: Tahoma, sans-serif;
+    font-size: 16px;
+    color: #333;
+  }
+  h1 {
+    text-align: center;
+  }
+
+  div{
+    background-color: #f93;
+  }
+
+  .width1{
+    width: 50%;
+
+  }
+
+  .width2{
+    width: 500px;
+
+  }
+
+  .width3{
+    width: 25em;
+
+  }
+  /*moze biti u postotku, u pixelima i emovima (npr. u body-ju je 16 pa je 25*16=400. Postotak uzima 50% širine svog roditelja.Emovi i postoci su relativne veličine i češće se koriste od pixela jer se definiraju na temelju odnosa roditelja */
+
+  .height1{
+    width: 50%;
+  }
+
+  .height2{
+    width: 150px;
+  }
+
+  .height3{
+    width: 5em;
+  }
+
+  /*moze biti u postotku, u pixelima i emovima. */
+
+  .blue{
+    background-color: rgb(61,61,208);
+  }
+
+  .border{
+    border: 2px solid #333;
+    box-sizing: border-box;
+  }
+  /*box-content je defaultni gdje veličina boxa ostaje ista kao i definirani (u ovom primjeru w:500px h:150px, kada stavimo border-box element se poveća prema van za veličinu bordera 2px, a kada nema box-sizing je prema unutra 2px*/
+
+  .border-width{
+    border: 6px solid #333;
+  }
+ 
+  .border-color{
+    border: 6px solid rgb(0,0,255)
+  }
+
+  .border-style{
+    border: 6px dashed rgb(0,0,255)
+  }
+
+  .padding{
+    padding: 20px;
+  }
+
+  /*padding pomakne content prema unutra kada je box-sizing:border-box i širina je kao prethodno definirana*/
+
+  .padding2{
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 5px;
+    text-align: justify;
+  }
+
+  /*ovdje je bolje koristiti samo 'padding: 20px 30px 50px 5px' */
+
+.margin{
+    margin:20px;
+}
+
+/*ima 20 px sa svih strana i ovdje ne vrijedi border-box jer je margin izvan elementa i utječe na susjedne elemente */
+
+.margin2{
+    margin:20px 30px 50px 200px;
+}
+
+/*gore desno dolje lijevo */
+
+/* .margin-auto{
+    margin: 20px auto;
+}
+
+ovo se često koristi za centriranje elemenata*/
+
+.margin-auto{
+    margin: 0 auto;
+}
+
+/*ovo se često koristi za centriranje elemenata ili 'margin: 0 auto' -  */
