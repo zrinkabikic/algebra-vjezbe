@@ -1,0 +1,45 @@
+body {
+    font-family: Tahoma, sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+}
+  
+p {
+    background-color: #f93;
+}
+
+em {
+    background-color: #ccf;
+}
+
+.block{
+    display: block;
+}
+/* block - element gubi svoje defaultno svojstvo i pretvara ga u element bloka
+inline-block - */ 
+
+.inline{
+    display: inline;
+}
+/* inline - prvi paragraf prestaje biti element bloka */ 
+
+.inline-block{
+    display: inline-block;
+}
+/* inline-block - ponasa se isto kao i inline element; jedina razlika je da se na njega mogu primimjeniti duljina i širina. Npr. slike su inline blokovi */ 
+
+.box{
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+}
+/* box - moguće dodavanje visine i širine i isto je inline element  */
+
+.none{
+    display:none;
+}
+/* none - miče element s ekrana */

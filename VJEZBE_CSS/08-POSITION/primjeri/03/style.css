@@ -1,0 +1,21 @@
+body{
+    margin:0;
+}
+
+div{
+    width:200px;
+    height:200px;
+}
+
+.box1{
+    background-color: cadetblue;
+}
+
+.box2{
+    background-color: orange;
+    left:200px;
+    top:-200px;
+    position: relative;
+}
+
+/*da nismos stavili position, ostao bi static, i ne bi se ništa promijenilo*/
