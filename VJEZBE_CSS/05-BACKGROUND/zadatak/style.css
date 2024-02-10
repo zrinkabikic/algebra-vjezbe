@@ -2,7 +2,7 @@ body{
     font-family:Tahoma, sans-serif;
     font-size: 16px;
     color: #ddd;
-    background: url(blossom.jpg) center center/cover fixed;
+    background: url(fire.png) center no-repeat fixed, url(blossom.jpg) center center/cover fixed;
 }
 
 h1{
@@ -11,7 +11,4 @@ h1{
 }
 
 
-header{
-    background: url(fire.png) center center/cover no-repeat fixed;
-    background-size: 12%;  
-}
+/*ona slika koja se prva vidi se treba staivi prva (obrnuti redoslijed) */
