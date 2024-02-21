@@ -1,0 +1,52 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Tahoma, sans-serif;
+    font-size: 16px;
+    color: #333;
+  }
+  h1 {
+    text-align: center;
+  }
+  
+  /* box */
+  
+  div {
+    background-color: #f93;
+    border: 1px solid #333;
+    width: 300px;
+    height: 150px;
+    margin: 4em auto;
+  }
+
+  .translate{
+    transform:translate(150px, -20px);
+  }
+
+  /*prvi broj po osi x, drugi broj po osi y */
+
+  .rotate{
+    transform:rotate(30deg);
+  }
+
+  /*moze biti i npr (0.25turn) */
+
+  .scale{
+    transform:scale(0.5, 0.3)
+  }
+
+  /* 0.5 * njegove velicina po x, i 0.3*njegova velicina po y */
+
+  .skew{
+    transform:skew(20deg, 15deg);
+  }
+
+  .multiple{
+    transform: rotate (30deg) scale (0.5, 0.3) skew(20deg,15deg);
+  }
+
+  
+
