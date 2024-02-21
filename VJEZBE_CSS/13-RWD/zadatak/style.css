@@ -30,14 +30,14 @@
     margin-bottom: 2%; 
   }
 
-  @media (min-width: 1024px) {
+  @media (width>1000px) {
     div .flex-item {
         flex: 0 20%;
         margin:5px;
         }
   }
 
-  @media (width < 1000px) {
+  @media (width < 999px) {
     div .flex-item {
         flex: 0 40%;
         margin:5px;
@@ -46,7 +46,7 @@
 
   @media (width < 500) {
     div .flex-item {
-        flex: 0 20%;
+        flex: 100%;
         margin:5px;
         }
   }
