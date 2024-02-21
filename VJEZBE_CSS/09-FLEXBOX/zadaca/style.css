@@ -1,0 +1,27 @@
+.flex-container {
+    display: flex;
+    border: 3px solid black;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.wrapper div {
+    background: #eee;
+    border: 1px solid #666;
+    padding: 1em;
+    text-align: center;
+    margin: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+}
+
+.flex-item {
+    flex-direction: column;
+    height:100px;
+    width: 25%;
+}
+
+.flex-item:nth-child(4n+1) {
+    height: 525px;
+}
