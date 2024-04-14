@@ -9,3 +9,5 @@ VJEZBE_CSS/Screenshot 2024-02-01 184709.png
 .gitignore
 VJEZBE_CSS/ostalo
 VJEZBE_CSS/.vscode
+!Zadaca
+
