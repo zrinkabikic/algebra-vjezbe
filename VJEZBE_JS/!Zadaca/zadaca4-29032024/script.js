@@ -125,6 +125,17 @@ Napravite pomoću while petlje rješenje za primjer bacanja kocke dok ne dobijem
 Pomoć: Kada koristimo Math.random to će biti broj između 0 i 1, doslovno decimalni broj stoga morate tome doskočiti. Kako bi maknuli decimalu pišemo Math.trunc ili Math.floor.
 */
 
+const broj = Math.trunc(Math.random() * 10);
+
+
+while (broj <= 6) {
+  if (broj === 6) {
+    return "Dobili smo 6";
+   } else {
+    broj++;
+}
+};
+
 
 
 

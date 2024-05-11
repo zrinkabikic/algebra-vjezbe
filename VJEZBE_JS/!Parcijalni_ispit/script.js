@@ -5,7 +5,7 @@ const results = document.getElementById('results');
 
 setTimeout(() => {
     console.log("Loading...");
-  }, 5000);
+  }, 1000);
   
 search.addEventListener('input', function(e) {
     fetch(`https://itunes.apple.com/search?term=indie&entity=song`)
