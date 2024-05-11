@@ -39,6 +39,11 @@ data.forEach((ime) => console.log(ime.name));
 const listaImena = data.map((ime) => ime.name);
 console.log(listaImena);
 
+function kreirajdiv () {
+  listaImena.createElement("div");
+};
+
+
 // const noviZadatak = document.createElement("div");
   
 
@@ -52,5 +57,3 @@ console.log(listaImena);
 
   */
   
-  const pointer = document.querySelector("h2");
-  pointer.addEventListener("click", pointerEvent);

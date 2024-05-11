@@ -6,9 +6,8 @@ VJEZBE_HTML/test/index.html
 VJEZBE_HTML/test/.vscode/settings.json
 VJEZBE_HTML/Presentation1.pptx
 VJEZBE_CSS/Screenshot 2024-02-01 184709.png
-.gitignore
 VJEZBE_CSS/ostalo
 VJEZBE_CSS/.vscode
-VJEZBE_JS/!Zadaca
 
+node_modules
 
