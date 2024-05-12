@@ -1,1 +1,0 @@
-document.getElementById("header").innerHTML = "<h1>Hello World</h1>"; 
